@@ -2,8 +2,57 @@
 @import url(_fonts.scss);
 
 
+/* 
+=======================
+	   VARIABLES
+=======================
+ */
+$i: !important;
+$tr: .7s ease all !important;
+$bb: 1px solid rgba(0,0,0,.1);
+
+
+body{
+	font-size: 10px $i
+}
+
+
+/* 
+=======================
+	GENERIC STYLES
+=======================
+ */
+ 
 
 
 
 
+
+/* 
+=======================
+	SCROLLBAR
+=======================
+ */
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+
+/* 
+=======================
+	MEDIA QUERIES
+=======================
+ */
 @import url(_media.scss);
